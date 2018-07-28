@@ -1,0 +1,24 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "A simple node program that takes parameters and returns data.",
+  "main": "liri.js",
+  "scripts": {
+    "test": "node liri.js my-tweets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BM0v0/liri-node-app"
+  },
+  "author": "Stuart Lindstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BM0v0/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/BM0v0/liri-node-app/blob/master/README.md",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
